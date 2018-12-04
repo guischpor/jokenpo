@@ -33,18 +33,6 @@ export default class App extends Component{
         break;
     }
 
-    // if (numAleatorio == 0){
-    //   escolhaComputador = 'pedra';
-    // }
-
-    // if (numAleatorio == 1){
-    //   escolhaComputador = 'papel';
-    // }
-
-    // if (numAleatorio == 2){
-    //   escolhaComputador = 'tesoura';
-    // }
-
     var resultado = '';
 
     if(escolhaComputador == 'pedra'){
@@ -109,4 +97,3 @@ export default class App extends Component{
     );
   }
 }
-

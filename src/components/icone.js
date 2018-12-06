@@ -31,22 +31,19 @@ class Icone extends Component{
         );
       }else{
         return false;
-      }     
+      }
     }
   }
 
   const styles = StyleSheet.create({
-    
     icone:{
       alignItems: 'center',
       marginBottom: 20,
     },
-    
     txtJogador:{
       fontSize: 18,
       fontWeight: 'bold'
     }
-  
   });
 
 export default Icone;
